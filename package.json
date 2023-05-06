@@ -4,13 +4,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "deploy": "firebase deploy"
   },
   "dependencies": {
     "babylonjs": "6.2.0"
   },
   "devDependencies": {
     "typescript": "5.0.4",
-    "vite": "4.3.5"
+    "vite": "4.3.5",
+    "firebase": "9.21.0",
+    "firebase-tools": "11.30.0"
   }
 }
