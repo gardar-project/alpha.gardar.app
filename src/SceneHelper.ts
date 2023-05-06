@@ -1,3 +1,5 @@
+import * as BABYLON from 'babylonjs';
+
 export default class SceneHelper {
   /**
    * Sets up the camera for scene.
