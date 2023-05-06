@@ -1,5 +1,4 @@
 import * as BABYLON from 'babylonjs';
-import 'babylonjs-loaders';
 
 import SceneHelper from './core/SceneHelper';
 
