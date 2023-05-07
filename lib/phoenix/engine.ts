@@ -1,4 +1,4 @@
-import { babylon } from "../babylon.js";
+import { babylon } from "../babylon.ts";
 import SceneHelper from "./scene-helper.ts";
 import Scene = babylon.core.Scene;
 
