@@ -1,19 +1,24 @@
 {
-  "name": "gardar-app",
+  "name": "gardar",
   "version": "0.0.1-dev",
   "type": "module",
+  "productName": "GARDAR.APP",
+  "build": {
+    "appId": "gardar.app"
+  },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open --port 8674",
     "build": "tsc && vite build",
     "deploy": "firebase deploy"
   },
   "dependencies": {
-    "babylonjs": "6.2.0"
+    "@babylonjs/core": "6.2.0",
+    "@babylonjs/inspector": "6.2.0"
   },
   "devDependencies": {
-    "typescript": "5.0.4",
-    "vite": "4.3.5",
     "firebase": "9.21.0",
-    "firebase-tools": "11.30.0"
+    "firebase-tools": "11.30.0",
+    "typescript": "5.0.4",
+    "vite": "4.3.5"
   }
 }

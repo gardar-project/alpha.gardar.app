@@ -5,7 +5,7 @@
       "module": "ESNext",
       "lib": ["ESNext", "DOM", "DOM.Iterable"],
       "skipLibCheck": true,
-      "moduleResolution": "nodenext",
+      "moduleResolution": "node", // TODO: make it 'nodenext' after https://github.com/BabylonJS/Babylon.js/issues/13797
       "allowImportingTsExtensions": true,
       "resolveJsonModule": true,
       "isolatedModules": true,
@@ -15,6 +15,5 @@
       "noUnusedParameters": true,
       "noFallthroughCasesInSwitch": true
     },
-    "include": ["src"]
-  }
-  
+    "include": ["src", "lib", "index.ts"] 
+}
