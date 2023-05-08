@@ -1,5 +1,5 @@
-import { babylon } from '../lib/babylon.ts';
-import { phoenix } from '../lib/phoenix.ts';
+import { babylon } from "@gardar-project/babylon";
+import { phoenix } from "../lib/phoenix.ts";
 import MeshBuilder = babylon.core.meshes.MeshBuilder;
 
 

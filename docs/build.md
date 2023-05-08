@@ -2,7 +2,6 @@
 - build produces few minified JavaScript bundles:
   - one for game (main build)
   - one for phoenix (3d rpg client)
-  - one for tales (game master / story engine)
   - one for each third-party library, like Babylon (3d renderer)
 - main build still has access to types from other bundles
 - at runtime, index imports phxdos, which loads all remaining bundles into globalThis scope

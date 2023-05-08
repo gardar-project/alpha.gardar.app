@@ -1,4 +1,4 @@
-import * as PhoenixEngine from "./phoenix/engine.ts"
+import * as PhoenixEngine from "../src/phoenix/engine.ts"
 
 export namespace phoenix {
     export import Engine = PhoenixEngine.Engine
