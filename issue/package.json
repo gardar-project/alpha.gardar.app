@@ -1,0 +1,25 @@
+{
+  "name": "gardar",
+  "description": "a gothic story",
+  "version": "0.0.1-dev",
+  "type": "module",
+  "productName": "GARDAR.APP",
+  "build": {
+    "appId": "gardar.app"
+  },
+  "scripts": {
+    "dev": "vite --open --port 8674",
+    "build": "tsc && vite build",
+    "deploy": "firebase deploy"
+  },
+  "dependencies": {
+    "@gardar-project/babylon": "latest"
+  },
+  "devDependencies": {
+    "@babylonjs/core": "6.2.0",
+    "firebase": "9.21.0",
+    "firebase-tools": "11.30.0",
+    "typescript": "5.0.4",
+    "vite": "4.3.5"
+  }
+}
