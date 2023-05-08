@@ -13,7 +13,7 @@
     "deploy": "firebase deploy"
   },
   "dependencies": {
-    "@gardar-project/babylon": "*"
+    "@gardar-project/babylon": "latest"
   },
   "devDependencies": {
     "@babylonjs/core": "6.2.0",
