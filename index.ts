@@ -1,11 +1,10 @@
 // Import stylesheets
 import './style.css';
-import Bootstrapper from './core/bootstrapper';
-import App from './app';
+import Bootstrapper from './src/core/bootstrapper';
+import App from './src/app';
 
 // Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
+const appDiv: HTMLElement = document.body;
 
-const bootstrapper = new Bootstrapper();
 const app = new App();
-bootstrapper.start(appDiv, app);
+Bootstrapper.main(appDiv, app);
